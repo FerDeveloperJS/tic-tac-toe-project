@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.first-row, .second-row,  .third-row{
+    display: flex;
+    background-color: aliceblue;
+    gap: 10px;
+}
+
+.first-row div, .second-row div, .third-row div {
+    width: 90px;
+    height: 90px;
+    border: 2px solid black;
+}
+
+.play-again-button {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: rgb(89, 89, 145);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 7px;
+}
