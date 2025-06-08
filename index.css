@@ -16,7 +16,7 @@ h1 {
     margin-top: 100px;
 }
 
-.first-row, .second-row,  .third-row{
+.first-row, .second-row, .third-row{
     display: flex;
     background-color: aliceblue;
     gap: 10px;
@@ -26,6 +26,15 @@ h1 {
     width: 90px;
     height: 90px;
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.div-disabled {
+    pointer-events: none;
 }
 
 .play-again-button {
